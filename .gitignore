@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+
+# Secrets — NEVER commit real keys
+.streamlit/secrets.toml
+
+# Data cache (regenerated on first run)
+data/_cache_xauusd.parquet
+
+# Trained model files (retrained on cold start)
+ai/ml_model.joblib
+ai/regime_model.joblib
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
